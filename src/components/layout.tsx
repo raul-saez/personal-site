@@ -4,7 +4,7 @@ import Header from "./header"
 import styled from "styled-components"
 import { pColor } from "./variables"
 // @ts-ignore
-import favicon from "../images/favicon.ico"
+import favicon from "../images/favicon.png"
 import Helmet from "react-helmet"
 import { FormattedMessage } from "react-intl"
 
