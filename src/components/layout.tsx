@@ -69,13 +69,19 @@ const Layout: React.FC<Props> = ({ children, lg }) => {
         <main>{children}</main>
         <StyledFooter>
           <StyledLinks>
-            <a href="https://www.github.com/raul-saez">
+            <a href="https://www.github.com/raul-saez" aria-label="GitHub">
               <GithubIcon />
             </a>
-            <a href="https://www.linkedin.com/in/raul-saez/">
+            <a
+              href="https://www.linkedin.com/in/raul-saez/"
+              aria-label="LinkedIn"
+            >
               <LinkedinIcon />
             </a>
-            <a href="https://www.goodreads.com/user/show/117148033-raul">
+            <a
+              href="https://www.goodreads.com/user/show/117148033-raul"
+              aria-label="Goodreads"
+            >
               <GoodreadsIcon />
             </a>
           </StyledLinks>
