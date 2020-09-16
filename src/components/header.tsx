@@ -2,6 +2,7 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import styled from "styled-components"
+import { pColor } from "./variables"
 
 const StyledHeader = styled.header`
   padding: 3rem;
@@ -23,6 +24,9 @@ const StyledHeader = styled.header`
   }
   > div {
     cursor: pointer;
+    span {
+      color: ${pColor};
+    }
   }
 `
 
@@ -40,7 +44,7 @@ const Header: React.FC<Props> = ({ siteTitle, setLg }) => {
     <StyledHeader>
       <h1>{siteTitle}</h1>
       <div>
-        <span onClick={() => handleClick("en-uk")}>🇬🇧 </span>
+        <span onClick={() => handleClick("en-uk")}>🇬🇧</span>
         <span onClick={() => handleClick("es-es")}>🇪🇸</span>
       </div>
     </StyledHeader>
