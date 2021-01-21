@@ -45,7 +45,7 @@ const translationsEn = {
   hello: "Hello",
   description: `My name is Raúl Sáez and I'm a passionate
   Full Stack Developer with experience in JavaScript and PHP
-  frameworks and libraries such as React, Angular and
+  frameworks and libraries such as React, React Native, Angular and
   Laravel.`,
   description2: `Some clients I have worked with and that you might recognise are:
   Liverpool FC, Bentley and Unison.`,
@@ -55,7 +55,7 @@ const translationsEn = {
 
 const translationsEs = {
   hello: "Hola",
-  description: `Mi nombre es Raúl Sáez y soy un apasionado Full Stack Developer con experiencia en frameworks y librerias the JavaScript y PHP como React, Angular y
+  description: `Mi nombre es Raúl Sáez y soy un apasionado Full Stack Developer con experiencia en frameworks y librerias the JavaScript y PHP como React, React Native, Angular y
   Laravel.`,
   description2: `Algunos clientes con los que he trabajado y puede que conozcas son:
   Liverpool FC, Bentley y Ayto. Orihuela.`,
