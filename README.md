@@ -1,9 +1,5 @@
   
 [![Netlify Status](https://api.netlify.com/api/v1/badges/8d1cdf22-d824-432b-840a-44b2b40af483/deploy-status)](https://app.netlify.com/sites/vigorous-keller-d6e8e7/deploys)
-   
-<h1 align="center">
-  My personal site
-</h1>
 
 ## 🧐 What's inside?
 
