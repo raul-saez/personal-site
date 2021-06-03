@@ -85,7 +85,7 @@ const Layout: React.FC<Props> = ({ children, lg }) => {
               <GoodreadsIcon />
             </a>
           </StyledLinks>
-          ©️ <FormattedMessage id="footer" /> ♥️
+          ©️ <FormattedMessage id="footer" />
         </StyledFooter>
       </div>
     </>
