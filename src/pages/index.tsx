@@ -44,27 +44,27 @@ const StyledLink = styled.a`
 const translationsEn = {
   hello: "Hello",
   description: `My name is Raúl Sáez and I'm a passionate
-  Full Stack Developer with experience in JavaScript and PHP
+  Software Developer with experience in JavaScript and PHP
   frameworks and libraries such as React, React Native, Angular and
   Laravel.`,
   description2: `Some clients I have worked with and that you might recognise are:
   Liverpool FC, Bentley and Unison.`,
   contact: "Drop me a line",
-  footer: "This site was built by me with TypeScript, Gatsby and a lot of",
+  footer: "This site was built by me with Gatsby + TypeScript",
 }
 
 const translationsEs = {
   hello: "Hola",
-  description: `Mi nombre es Raúl Sáez y soy un apasionado Full Stack Developer con experiencia en frameworks y librerias the JavaScript y PHP como React, React Native, Angular y
+  description: `Mi nombre es Raúl Sáez y soy un apasionado Software Developer con experiencia en frameworks y librerias the JavaScript y PHP como React, React Native, Angular y
   Laravel.`,
   description2: `Algunos clientes con los que he trabajado y puede que conozcas son:
-  Liverpool FC, Bentley y Ayto. Orihuela.`,
+  Liverpool FC, Bentley y Unison.`,
   contact: "Contacta conmigo",
-  footer: "Esta web ha sido creada por mi con TypeScript, Gatsby y mucho",
+  footer: "Esta web ha sido creada por mi usando Gatsby + TypeScript",
 }
 
 const IndexPage: React.FC = () => {
-  const [lg, setLg] = useState<string>("en-uk")
+  const [lg, setLg] = useState("en-uk")
 
   return (
     <IntlProvider
